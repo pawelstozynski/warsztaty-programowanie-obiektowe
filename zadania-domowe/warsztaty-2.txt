@@ -1,0 +1,18 @@
+Zad. 1.
+
+W kodzie z zajęć spraw, aby próba zmiany nazwy działu (klasa Department) na "", zakńczyła się niepowodzeniem. 
+Zmodyfikuj własciwość.
+
+
+
+Zad. 2.
+
+Stwórz drugi konstruktor w klasie Employee. Niech przyjmuje dwa argumenty: firstName i lastName.
+
+
+
+Zad 3.
+
+W main stwórz kilka dodatkowych Obiektów klas Department, Employee i Position.
+W przypadku Employee wykorzystaj utworzony w Zad. 2. konstruktor. 
+Position pracowników ustaw przez właściwość.
