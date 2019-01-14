@@ -1,0 +1,36 @@
+1. Utwórz klasę Dish zawierającą Dwie właściwości: Name oraz Price. 
+   Dobierz odpowiedni typ oraz spraw, aby dostęp do wartości właściwości był możliwy w całym programie,
+   ale modyfikacja tylko wewnątrz klasy Dish.
+
+2. Utwórz konstruktor ustawiający właściwości na wartości podane w argumentach.
+
+3. Utwórz metodę ToString(), zwracającą opis danego obiektu klasy Dish.
+
+4. W Main() utwórz 3 dowolne obiekty klasy Dish(), oraz wypisz w konsoli efekt metody ToString() każdego z nich.
+
+5. Utwórz klasę Menu, zawierającą pole o nazwie dishes, będące listą przechowującą obiekty klasy Dish. 
+   Dostęp do zawartości pola powinien być możliwy tylko wewnątrz klasy Menu.
+
+6. Utwórz konstruktor, który utworzy obiek systemowej klast List i przypisze go do pola dishes.
+
+7. W klasie Menu stwórz metodę AddDish, przyjmującą jako argument obiekt typu Dish, a następnie doda go do listy dishes.
+   Przed dodaniem należy sprawdzić, czy na liście nie znajduje się już obiekt o tej samej nazwie.
+   Jeżeli tak, to zamiast dodawać danie do listy należy wyświetlić na ekranie odpowiedni komunikat.
+   
+8. W klasie Menu utwórz metodę PrintMenu(), która wypisze na ekranie zawartość listy dishes.
+   Użyj pętli foreach, oraz metody ToString() klasy Dish.
+   
+9. W Main() utwórz menu, a następnie dodaj do niego utworzone wcześniej dania. Wypisz zawartość menu w konsoli.
+
+*10. Przyjrzyj się metodzie AddDish w klasie Menu. Zamiast obiektu klasy Dish może ona przyjmować dwa inne argumenty, 
+	aby osiągnąć ten sam efekt. Skopiuj metodę AddDish i przerób ją tak, aby zamiast przyjmować jako argument już utworzony
+	obiekt klasy Dish, tworzyła ten obiekt na podstawie podanych danych.
+	
+	Następnie w Main() dodaj do menu 2 dowolne dania używając nowej metody AddDish()
+	
+*11. Zwróć uwagę, że w obu metodach AddDish spora część kodu się powtarza. Jak można zapobiec takiej sytuacji?
+
+*12. W klasie Menu jedna z metod AddDish jest zbyt długa.
+    Utwórz w klasie nową metodę ContainsDish(Dish dish), która będzie zwracać true albo false.
+    Przenieś logikę sprawdzania, czy danie o tej samej nazwie już istnieje z metody AddDish do nowej metody.
+	Zastanów się, czy nowo utworzona metoda powinna być publiczna czy prywatna.

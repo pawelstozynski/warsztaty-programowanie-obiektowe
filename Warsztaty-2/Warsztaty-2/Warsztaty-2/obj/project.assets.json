@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Pablo\\Programowanie\\C#\\Warsztaty Expert\\Warsztaty-2\\Warsztaty-2\\Warsztaty-2.csproj",
+      "projectUniqueName": "C:\\Pablo\\Programowanie\\C#\\Warsztaty Expert\\Warsztaty-2\\Warsztaty-2\\Warsztaty-2\\Warsztaty-2.csproj",
       "projectName": "Warsztaty-2",
-      "projectPath": "C:\\Pablo\\Programowanie\\C#\\Warsztaty Expert\\Warsztaty-2\\Warsztaty-2\\Warsztaty-2.csproj",
+      "projectPath": "C:\\Pablo\\Programowanie\\C#\\Warsztaty Expert\\Warsztaty-2\\Warsztaty-2\\Warsztaty-2\\Warsztaty-2.csproj",
       "packagesPath": "C:\\Users\\pawel\\.nuget\\packages\\",
-      "outputPath": "C:\\Pablo\\Programowanie\\C#\\Warsztaty Expert\\Warsztaty-2\\Warsztaty-2\\obj\\",
+      "outputPath": "C:\\Pablo\\Programowanie\\C#\\Warsztaty Expert\\Warsztaty-2\\Warsztaty-2\\Warsztaty-2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
